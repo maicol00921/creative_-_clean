@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.Inicio {
+    background-image: url(/assets/img/bgHeader.png);
+    height: 720px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.inicio h1 {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(243, 121, 55);
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.inicio h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: #333;
+}
+
+.view {
+    background-color: rgb(243, 121, 55);
+    border-radius: 80px;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+.Make {
+    padding: 80px 40px;
+}
+
+.make-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.make-text {
+    max-width: 550px;
+}
+
+.Make h1 {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(243, 121, 55);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.Make p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.Make img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+.Make .view {
+    background-color: rgb(243, 121, 55);
+    border: none;
+    border-radius: 40px;
+    padding: 12px 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.Work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 5%;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.Work h1 {
+    color: rgb(243, 121, 55);
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+    font-size: 60px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.Work p {
+    max-width: 600px;
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.Work img {
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.Work {
+    padding: 60px 5%;
+    background-color: #f9f9f9;
+}
+
+.work-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px; 
+    padding-left: 50px; 
+    flex-wrap: wrap
+}
+
+.work-container img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.work-text {
+    max-width: 500px;
+    padding-left: 20px;
+}
+.work-text h1 {
+    color: rgb(243, 121, 55);
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.work-text p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.resources {
+    color: rgb(243, 121, 55);
+    font-family: 'Roboto Slab', serif;
+    margin-top: 30px;
+    font-size: 24px;
+}
+.supply {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 80px;
+  background: url(/assets/img/bgDown.png) no-repeat right center;
+  background-size: cover;
+  background-color: #fef1ee;
+  min-height: 600px;
+  box-sizing: border-box;
+}
+
+.supply-content {
+  max-width: 600px;
+}
+
+.supply h2 {
+  font-size: 28px;
+  color: #f37037;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.supply p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.supply .btn {
+  background-color: #f37037;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.supply .btn:hover {
+  background-color: #d95c25;
+}
+footer {
+    background-color: rgb(243, 121, 55);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 5%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    width: 20%;
+}
+
+footer p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer li {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+footer h3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+}
